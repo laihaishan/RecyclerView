@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/recybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通下拉效果"/>
+
+    <Button
+        android:id="@+id/orrEcyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="横向滚动效果"/>
+
+    <Button
+        android:id="@+id/pubuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="瀑布下拉效果"/>
+
+</LinearLayout>
